@@ -1,28 +1,12 @@
-.stats {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.row {
+    display: flex;
+    justify-content: space-between;
 }
 
-.stats-content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.stats-content img {
-  flex: 1;
-  width: 100%;
-}
-
-@media screen and (min-width: 768px) {
-  .stats-content {
-    flex-direction: row;
-  }
-
-  .stats-content img {
-    margin: 0 10px;
-  }
+.text {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color: orange;
+    font-size: 56px;
 }
